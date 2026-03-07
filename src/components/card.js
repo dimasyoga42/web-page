@@ -30,7 +30,7 @@ const EndpointCard = ({
     statusConfig[status?.toUpperCase()] ?? statusConfig["ONLINE"];
 
   const handleCopy = () => {
-    navigator.clipboard.writeText(path);
+    navigator.clipboard.writeText(`neuraapi.vercel.app${path}`);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
