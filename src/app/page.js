@@ -29,19 +29,19 @@ export default function Home() {
     },
     {
       title: "Search xtal",
-      path: "https://neuraapi.verce.app/api/toram/xtal?q=",
+      path: "https://neuraapi.verce.app/api/toram/xtal?name=",
       type: "GET",
       status: "online",
     },
     {
       title: "Tiraid search",
-      path: "https://neuraapi.verce.app/api/toram/ability?q=",
+      path: "https://neuraapi.verce.app/api/toram/ability?name=",
       type: "GET",
       status: "online",
     },
     {
       title: "Item search",
-      path: "https://neuraapi.verce.app/api/toram/item?q=",
+      path: "https://neuraapi.vercel.app/api/toram/item?name=&limit=",
       type: "GET",
       status: "online",
     },
@@ -53,7 +53,7 @@ export default function Home() {
     },
     {
       title: "Regis search",
-      path: "https://neuraapi.verce.app/api/toram/regis?q=",
+      path: "https://neuraapi.verce.app/api/toram/regis?name=",
       type: "GET",
       status: "offline",
     },
@@ -71,13 +71,13 @@ export default function Home() {
     },
     {
       title: "adv calculator",
-      path: "https://neuraapi.vercel.app//api/toram/spamadv?lv=&exp=&lvmx=&from=",
+      path: "https://neuraapi.vercel.app/api/toram/spamadv?lv=&exp=&lvmx=&from=",
       type: "GET",
       status: "online",
     },
     {
       title: "khodam",
-      path: "https://neuraapi.vercel.app//api/etc/khodam",
+      path: "https://neuraapi.vercel.app/api/etc/khodam",
       type: "GET",
       status: "online",
     },
