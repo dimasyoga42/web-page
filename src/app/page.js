@@ -55,7 +55,7 @@ export default function Home() {
       title: "Regis search",
       path: "https://neuraapi.verce.app/api/toram/regis?name=",
       type: "GET",
-      status: "offline",
+      status: "online",
     },
     {
       title: "Cuaca",
