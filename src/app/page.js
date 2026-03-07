@@ -49,7 +49,7 @@ export default function Home() {
       title: "Monster search",
       path: "https://neuraapi.verce.app/api/toram/monster/q=&limit=",
       type: "GET",
-      status: "online",
+      status: "offline",
     },
     {
       title: "Regis search",
