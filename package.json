@@ -2,6 +2,12 @@
   "name": "neru-web",
   "version": "0.1.0",
   "private": true,
+  "author": "dimasyoga42",
+  "keywords": [
+    "bot",
+    "Rest-api",
+    "website"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
