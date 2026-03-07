@@ -11,13 +11,13 @@ export default function Home() {
   const data = [
     {
       title: "Ava Information",
-      path: "neuraapi.vercel.app/api/toram/ava",
+      path: "/api/toram/ava",
       type: "GET",
       status: "online",
     },
     {
       title: "Waifu",
-      path: "https://neuraapi.vercel.app/api/etc/waifu",
+      path: "/api/etc/waifu",
       type: "GET",
       status: "online",
     },
@@ -47,7 +47,7 @@ export default function Home() {
     },
     {
       title: "Monster search",
-      path: "https://neuraapi.verce.app/api/toram/monster?q=&limit=",
+      path: "/api/toram/monster?q=&limit=",
       type: "GET",
       status: "offline",
     },
