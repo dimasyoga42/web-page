@@ -58,12 +58,6 @@ export default function Home() {
       status: "offline",
     },
     {
-      title: "khodam",
-      path: "https://neuraapi.verce.app/api/etc/khodam",
-      type: "GET",
-      status: "offline",
-    },
-    {
       title: "Cuaca",
       path: "https://neuraapi.verce.app/api/etc/cuaca?q=",
       type: "GET",
@@ -78,6 +72,12 @@ export default function Home() {
     {
       title: "adv calculator",
       path: "https://neuraapi.vercel.app//api/toram/spamadv?lv=&exp=&lvmx=&from=",
+      type: "GET",
+      status: "online",
+    },
+    {
+      title: "khodam",
+      path: "https://neuraapi.vercel.app//api/etc/khodam",
       type: "GET",
       status: "online",
     },
