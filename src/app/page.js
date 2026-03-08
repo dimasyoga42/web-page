@@ -81,6 +81,12 @@ export default function Home() {
       type: "GET",
       status: "online",
     },
+    {
+      title: "wellcome",
+      path: "/api/etc/wellcome?phone=&name=&image=",
+      type: "GET",
+      status: "online",
+    },
   ];
 
   const filtered = data.filter((item) =>
